@@ -1,3 +1,4 @@
+import os,platform
 os.system('git pull')
 os.system('touch proxies.txt')
 MANI=platform.architecture()[0]
@@ -12,4 +13,4 @@ elif MANI=="64bit":
 
 	
 
-    __import__("ZIDI_MALIK"
+    __import__("ZIDI_MALIK")
